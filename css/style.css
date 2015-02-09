@@ -1,0 +1,354 @@
+/***
+Theme Name: Grayscale Portfolio Theme
+Author: Ardel John S. Biscaro  
+Description: Main CSS
+Version: 1 
+***/
+
+/*** Reset ***/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { background: transparent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0; vertical-align: baseline; }
+ol,ul { list-style: none; }
+blockquote,q { quotes: none; }
+blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none; }
+:focus { outline: 0; }
+img { vertical-align: bottom; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+/*** 
+Clearfix 
+***/
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: "."; clear: both; height: 0; }
+.clear { clear: both; }
+
+/*** 
+Positioning and Alignment 
+***/
+.fl { float: left; }
+.fr { float: right; }
+.txt-left { text-align: left; }
+.txt-right { text-align: right; }
+.txt-center { text-align: center; }
+
+/*** 
+General Settings 
+***/
+body { background: #fff; color: #000; font-family: Helvetica, Arial, sans-serif; font-size: 12px; }
+h1,h2,h3,h4,h5,h6 { font-weight: normal; margin-bottom: 15px; }
+p { margin: 0 0 15px 0; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+img { width: 100%; }
+/***
+Container
+***/
+.container {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 960px;
+}
+
+/***
+Typography
+***/
+
+h1 {
+	font-size: 50px;
+}
+h2 {
+	border-bottom: 5px solid #000;
+	font-size: 30px;
+	margin: 0px;
+}
+h3 {
+	font-size: 14px;
+}
+
+/***
+Line format
+***/
+.sect-line {
+	border-bottom: 1px solid #000;
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+/***
+Columns
+***/
+
+.col-3 {
+	float: left;
+	margin-right: 30px;
+	width: 300px;
+}
+
+.col-3.last {
+	margin-right: 0px;
+}
+
+.col-4 {
+	float: left;
+	margin-right: 20px;
+	width: 220px;
+}
+
+.col-4.last {
+	margin-right: 0px;
+}
+
+/***
+Header
+***/
+#masthead {
+	background: #000;
+	padding: 25px 0px 25px 0px;
+   display: block;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 9999;
+}
+
+.logo {
+	float: left;
+}
+
+.top-nav {
+	float: right;
+	margin-top: 20px;
+}
+.top-nav ul li {
+	display: inline;
+	font-size: 14px;
+	margin-right: 35px;
+}
+.top-nav ul li.last {
+	margin-right: 2px;
+}
+.top-nav ul li a {
+	border: 2px solid #000;
+	border-radius: 5px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+}
+.top-nav ul li a:hover, .top-nav li.current a  {
+	border-color: #fff; 
+}
+.top-nav .toggle {
+	display: none;
+}
+
+/***
+Main Content
+***/
+#main-content {
+}
+
+.section-space {
+	padding-top: 120px;
+}
+
+/***
+Main Content - Banner
+***/
+#banner {
+	background: #808080;
+	padding-bottom: 30px;
+}
+
+#banner h1 {
+	color: #fff;
+}
+#banner p {
+	color: #fff;
+	font-size: 20px;
+}
+
+/***
+Main Content - Portfolio
+***/
+#portfolio {
+	background: #fff;
+}
+#portfolio h2 {
+	width: 150px;
+}
+
+#portfolio .portfolio-inner {
+	display: block;
+	float: left;
+}
+#portfolio h3 {
+	margin-top: 15px;
+}
+#portfolio a {
+	background: #000;
+	border: 3px solid #000;
+	border-radius: 5px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+	color: #fff;
+	float: right;
+	padding: 10px;
+	text-decoration: none;
+}
+#portfolio a:hover {
+	border-color: #808080;
+}
+
+/***
+Main Content - Service
+***/
+#service {
+	background: #fff;
+}
+#service h2 {
+	width: 200px;
+}
+#service h3 {
+	margin-top: 15px;
+	text-decoration: underline;
+}
+
+/***
+Main Content - About
+***/
+#about {
+	background: #fff;
+}
+#about h2 {
+	width: 120px;
+}
+
+/***
+Main Content - Contact
+***/
+#contact {
+	background: #fff;
+	padding-bottom: 50px;
+}
+#contact h2 {
+	width: 200px;
+}
+
+#contact .form {
+	margin: 0 auto;
+	width: 50%;
+}
+
+#contact .form input[type="text"] {
+	display: block;
+	font-size: 12px;
+	padding: 5px 5px 5px 5px;
+	width: 100%;
+}
+
+#contact .form input[type="submit"] { 
+	background: #000;
+	border: 3px solid #000;
+	border-radius: 5px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	float: left;
+	font-weight: normal;
+	padding: 7px;
+}
+
+#contact .form input[type="submit"]:hover {
+	border-color: #808080;
+}
+
+#contact .contact-msg {
+	display: block;
+	font-size: 12px;
+	padding: 5px 5px 5px 5px;
+	width: 100%;
+}
+
+/***
+Main Content - Widgets
+***/
+#widgets {
+	background: #808080;
+	padding-top: 50px;	
+}
+
+#widgets h3 {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#widgets p {
+	color: #fff;
+}
+
+#widgets ul li {
+	color: #fff;
+	list-style-type: square;
+}
+
+#widgets ul li a{
+	color: #fff;
+}
+
+#widgets .form {
+	width: 80%;
+}
+
+#widgets .form input[type="text"] {
+	display: block;
+	font-size: 12px;
+	padding: 5px 5px 5px 5px;
+	width: 100%;
+}
+
+#widgets .form input[type="submit"] { 
+	background: #000;
+	border: 3px solid #000;
+	border-radius: 5px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	float: left;
+	font-weight: normal;
+	padding: 7px;
+}
+
+#widgets .form input[type="submit"]:hover {
+	border-color: #fff;
+}
+
+#widgets .testimonial {
+	color: #fff;
+	padding-bottom: 50px;
+}
+#widgets .client {
+	float: right;
+}
+
+/***
+Footer
+***/
+#mastfoot {
+	background: #000;
+	padding-top: 10px;
+}
+
+#mastfoot .copyright, .copyright a {
+	color: #fff;		
+}
+
+/***
+Page Specific - Portfolio
+***/
+#main-content .port-page {
+	padding-bottom: 30px;
+}

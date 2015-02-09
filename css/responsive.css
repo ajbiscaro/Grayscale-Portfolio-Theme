@@ -1,0 +1,117 @@
+/*----Media Queries-----*/
+@media only screen and (max-width: 980px) {
+	.container{ 
+		width: 80%; 
+	}
+	#portfolio .col-4 {
+		width: 22%;
+	}
+	.col-3 {
+		margin-right: 40px;
+		width: 200px;
+	}
+	
+}
+
+@media only screen and (max-width: 800px) {
+	.container{ 
+		width: 85%; 
+	}
+	.top-nav ul li {
+		margin-right: 10px;
+	}
+	.col-3 {
+		margin-right: 20px;
+		width: 200px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.container{ 
+		width: 90%; 
+	}
+	.top-nav ul li {
+		margin-right: 15px;
+	}
+	.col-3 {
+		margin-right: 20px;
+		width: 200px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.container{ 
+		width: 95%; 
+	}
+	.top-nav {
+		float: none;
+	}
+	.top-nav ul {
+		background: #808080;
+		clear: both;
+		display: none;
+		width: 100%;
+	}
+	.top-nav .toggle {
+		border: 2px solid #000;
+		border-radius: 5px;
+		display: block;
+		float: right;
+		height: 45px;
+		width: 50px;
+	}
+	.top-nav a.toggle:hover {
+		border-color: #fff;
+	}
+	.top-nav ul  li {
+		display: block;
+		width: 100%;
+	}
+	.top-nav ul li a {
+		border: 0px none;
+		border-bottom: 1px solid #eee;
+		border-radius: 0px;
+			-moz-border-radius: 0px;
+			-webkit-border-radius: 0px;
+		display: block;
+		font-size: 16px;
+		margin: 0px;
+		padding: 10px;
+	}
+	.top-nav ul li.last a {
+		border: 0px none;
+	}
+	.top-nav ul  li a:hover,
+	.top-nav ul li.current a {
+		color: #000;
+	}
+	#banner {
+		padding-top: 150px;
+	}
+	.col-3 {
+		margin-right: 25px;
+		width: 180px;
+	}
+	#portfolio .col-4 {
+		padding-left: 4px;
+		width: 21%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.col-3 {
+		margin: 0px 20px 30px 0px;
+		padding: 0px;
+		width: 300px;
+	}
+	#portfolio .col-4 {
+		padding-bottom: 80px;
+		width: 40%;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	h1 {
+		font-size: 45px;
+	}
+}
