@@ -1,4 +1,4 @@
-# Grayscale-Portfolio-Theme
+# Grayscale Portfolio Theme
 
 Grayscale Portfolio Theme is a clean and minimalistic theme for portfolio of professionals and companies.
 
