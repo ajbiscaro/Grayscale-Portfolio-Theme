@@ -14,4 +14,5 @@ Grayscale color
 
 JQuery OnePage Nav
 
+Demo: http://ardel-demo.net78.net/Grayscale-Portfolio
 
